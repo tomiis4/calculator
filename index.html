@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <div id="calculator">
+        <div id="0" onClick="getNumbers(this.id)">0
+        </div>
+        <div id="1" onClick="getNumbers(this.id)">1
+        </div>
+        <div id="2" onClick="getNumbers(this.id)">2
+        </div>
+        <div id="3" onClick="getNumbers(this.id)">3
+        </div>
+        <div id="4" onClick="getNumbers(this.id)">4
+        </div>
+        <div id="5" onClick="getNumbers(this.id)">5
+        </div>
+        <div id="6" onClick="getNumbers(this.id)">6
+        </div>
+        <div id="7" onClick="getNumbers(this.id)">7
+        </div>
+        <div id="8" onClick="getNumbers(this.id)">8
+        </div>
+        <div id="9" onClick="getNumbers(this.id)">9
+        </div>
+        <br>
+        <div id="+" onClick="getOperator(this.id)">+</div>
+        <div id="-" onClick="getOperator(this.id)">-</div> 
+        <div id="/" onClick="getOperator(this.id)">/</div>
+        <div id="*" onClick="getOperator(this.id)">*</div>
+        <br>
+        <div id="=" onClick="getResult()">=</div>
+    </div>
+    <div id="results">
+        <h1 id="first-r"></h1>
+        <h1 id="operator-r"></h1> 
+        <h1 id="second-r"></h1>
+        <h1 id="result-r"></h1>
+    </div>
+</body>
+<script src="./index.js"></script>
+</html>
